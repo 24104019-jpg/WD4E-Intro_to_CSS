@@ -44,3 +44,45 @@ p {
   line-height: 1.6;
   color: #333333;
 }
+/* 1. Sửa màu cho thanh điều hướng và link bên trong (nguyên nhân hay gặp nhất) */
+nav {
+  background-color: #1e293b; /* Nền xanh đen tối hẳn */
+}
+
+nav a {
+  color: #ffffff !important; /* Chữ link màu trắng tuyệt đối để tăng tương phản */
+  text-decoration: underline; /* Giữ gạch chân để dễ nhận biết link */
+}
+
+/* 2. Sửa màu cho tiêu đề header */
+header {
+  background-color: #0f172a; /* Nền rất tối */
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #ffffff; /* Chữ trắng rõ nét trên nền tối */
+}
+
+/* 3. Sửa phần nội dung chính (main) */
+main {
+  background-color: #ffffff; /* Nền trắng hẳn */
+  font-size: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #111111; /* Màu chữ đen đậm trên nền sáng */
+}
+
+/* 4. Sửa chân trang (footer) */
+footer {
+  background-color: #0f172a;
+  color: #ffffff; /* Chữ trong footer đổi sang trắng */
+}
+
+footer a {
+  color: #ffffff; /* Link trong footer cũng để màu trắng */
+}
