@@ -86,3 +86,40 @@ footer {
 footer a {
   color: #ffffff; /* Link trong footer cũng để màu trắng */
 }
+/* Đổi nav sang màu xám thật nhạt hoặc trắng để link xanh dương không bị lỗi */
+nav {
+  background-color: #f0f2f5;
+}
+
+/* Đổi màu chữ của link sang màu xanh đậm có gạch chân để đạt chuẩn */
+a {
+  color: #003366 !important;
+}
+
+/* Header giữ nguyên hoặc chỉnh chữ trắng rõ ràng */
+header {
+  background-color: #1a252f;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #ffffff;
+}
+
+/* Main */
+main {
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+footer {
+  background-color: #f0f2f5;
+  color: #000000;
+}
